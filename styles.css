@@ -1,0 +1,80 @@
+body {
+    background-color: #617047;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    color: white;
+    text-shadow: 
+    -3px  0px 0 #000,
+     3px  0px 0 #000,
+     0px -3px 0 #000,
+     0px  3px 0 #000,
+    /* Diagonal directions (Corners) */
+    -3px -3px 0 #000,
+     3px -3px 0 #000,
+    -3px  3px 0 #000,
+     3px  3px 0 #000;
+}
+
+#firstTitle {
+    text-align: center;
+    font-size: 40px;
+}
+
+#secondTitle {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#banner {
+    display: block; 
+    margin: 0 auto;
+    border-radius: 7px;
+    width: 1300px;
+    height: 80px;
+    
+}
+
+a {
+    color: black;
+    background-color: white;
+    border: solid 3px;
+    border-radius: 3px;
+}
+
+p {
+    background-color: #ebcda5;
+    border-radius: 5px;
+}
+
+#guitar {
+    width: 180px;
+    height: 350px;
+}
+
+.list {
+    border-radius: 5px;
+    background-color: #ebcda5;
+    margin-right: 720px;
+    
+}
+
+#cityPic {
+    margin-top: 100px;
+}
+
+
